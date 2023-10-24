@@ -7,6 +7,7 @@ import './index.css'
 import App from './App.jsx';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import HomePage from './pages/HomePage/HomePage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
 import ProjectPage from './pages/ProjectPage/ProjectPage';
 import ResumePage from './pages/ResumePage/ResumePage';
