@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-		<main>
+		<main className="about">
 			<div>
 				My name is Giovanna Luciano and I am a dedicated and passionate full-stack web
 				developer with a determination to make a positive impact in the world.

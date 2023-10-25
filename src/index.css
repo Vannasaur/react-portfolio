@@ -7,7 +7,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgb(255, 255, 255);
   background-color: #000000;
 
@@ -20,17 +20,17 @@
 
 a {
   font-weight: 500;
-  color: #e042d6;
+  color: #FF48F3;
   text-decoration: inherit;
 }
 a:hover {
-  color: #7a81ff;
+  color: #888eff;
 }
 
 body {
   margin-top: 50px;
   margin-left: 50px;
-  display: flex;
+  /* display: flex; */
   /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
@@ -39,6 +39,10 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 3em;
 }
 
 button {
@@ -54,7 +58,8 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #888eff;
+  background-color: #2a2d69;
 }
 button:focus,
 button:focus-visible {
@@ -67,23 +72,74 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #888eff;
   }
   button {
     background-color: #f9f9f9;
   }
 }
 
+
+main {
+  margin-top: 5rem;
+  padding: 5rem;
+}
+
+footer {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
 .nav {
   align-items: center;
+  justify-content: flex-end;
+  padding-top: 10px;
 }
 
 .navbar {
-  margin-right: 20px;
+  margin-right: 30px;
   font-weight: 500;
 }
 
 .resume-btn {
   border-radius: 5px;
   padding: 5px;
+}
+
+.logo {
+  max-width: 8rem;
+  margin-right: 30px;
+}
+
+.github {
+  max-width: 4rem;
+  margin-right: 15px;
+
+}
+
+.linkedin {
+  max-width: 4rem;
+  margin-right: 15px;
+}
+
+.instagram {
+  max-width: 4rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.about {
+  border-color: #888eff;
+  border-radius: 5px;
 }
