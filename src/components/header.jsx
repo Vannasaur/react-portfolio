@@ -3,24 +3,36 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    // The nav component will render each of the Link elements in the links prop
-    <nav>
-      <Link key={1} className="" to="/">
-        Home
-      </Link>,
-      <Link key={2} className="" to="/about">
-        About
-      </Link>,
-      <Link key={3} className="" to="/projects">
-        Projects
-      </Link>,
-      <Link key={4} className="" to="/resume">
-        Resume
-      </Link>,
-      <Link key={5} className="" to="/contact">
-        Contact
-      </Link>,
-    </nav>
-  );
+		// The nav component will render each of the Link elements in the links prop
+		<nav className="flex nav">
+			<div>
+				<Link key={1} className="navbar" to="/">
+					Home
+				</Link>
+			</div>
+			<div>
+				<Link key={2} className="navbar" to="/about">
+					About
+				</Link>
+			</div>
+			<div>
+				<Link key={3} className="navbar" to="/projects">
+					Projects
+				</Link>
+			</div>
+			<div>
+				<Link key={5} className="navbar" to="/contact">
+					Contact
+				</Link>
+			</div>
+			<div>
+				<button className="resume-btn navbar">
+					<Link key={4} className="" to="/resume">
+						Resume
+					</Link>
+				</button>
+			</div>
+		</nav>
+	);
 }
 export default Header

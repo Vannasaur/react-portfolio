@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:root {
+  font-family: 'Raleway', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,17 +20,18 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #e042d6;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #7a81ff;
 }
 
 body {
-  margin: 0;
+  margin-top: 50px;
+  margin-left: 50px;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
@@ -43,12 +44,13 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  /* padding: 0.6em 1.2em; */
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #030303;
   cursor: pointer;
+  border-color: #e042d6;
   transition: border-color 0.25s;
 }
 button:hover {
@@ -70,4 +72,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}
+
+.nav {
+  align-items: center;
+}
+
+.navbar {
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+.resume-btn {
+  border-radius: 5px;
+  padding: 5px;
+}
