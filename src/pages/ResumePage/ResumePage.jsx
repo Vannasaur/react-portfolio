@@ -1,4 +1,6 @@
-const ResumePage = () => {
-	return <div>ResumePage</div>;
-};
-export default ResumePage;
+function ResumePage() {
+	return (
+		<div>ResumePage</div>
+	)
+}
+export default ResumePage
