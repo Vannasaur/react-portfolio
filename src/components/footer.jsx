@@ -1,6 +1,6 @@
 function Footer() {
   return (
-		<footer>
+		<footer className="footer">
 			<div className="footer-links">
 				<a href="https://github.com/Vannasaur" target="_blank">
 					<img src="../../public/images/github.svg" className="github"></img>
