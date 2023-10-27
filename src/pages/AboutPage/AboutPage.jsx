@@ -1,13 +1,11 @@
 const AboutPage = () => {
   return (
 		<main className="about">
-			<div>
+			<div className="about-txt">
 				<div>
 					My name is Giovanna Luciano and I am a dedicated and passionate
 					full-stack web developer with a determination to make a positive
-					impact in the world. With a background in legal case management
-					support, I've honed my skills in communication, teamwork, and
-					meticulous attention to detail.
+					impact in the world.
 				</div>
 				<br></br>
 				<div>
@@ -18,11 +16,9 @@ const AboutPage = () => {
 				</div>
 				<br></br>
 				<div>
-					My journey in web development has ignited a spark within me. I'm on a
-					mission to spread joy, inspiration, and innovation. I believe that
-					continuous progress and reaching our full potential are the
-					cornerstones of personal and professional success. With every project
-					I undertake, I aim to not only meet expectations but to exceed them.
+					I'm on a mission to spread joy, inspiration, and innovation. I believe
+					that continuous progress and reaching our full potential are the
+					cornerstones of personal and professional success.
 				</div>
 				<br></br>
 				<div>
@@ -34,9 +30,17 @@ const AboutPage = () => {
 				</div>
 				<br></br>
 				<div>
-					Join me in the pursuit of excellence, and together, we'll create
-					solutions that empower and inspire.
+					<h4>
+						Join me in the pursuit of excellence, and together, we'll create
+						solutions that empower and inspire.
+					</h4>
 				</div>
+			</div>
+			<div className="about-img">
+				<img
+					src="../../public/images/girlonlaptop.svg"
+					className="girl-laptop"
+				></img>
 			</div>
 		</main>
 	);
