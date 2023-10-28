@@ -26,11 +26,11 @@ function Header() {
 				</Link>
 			</div>
 			<div>
-				<button className="resume-btn navbar">
 					<Link key={4} className="" to="/resume">
+				<button className="resume-btn navbar">
 						Resume
-					</Link>
 				</button>
+					</Link>
 			</div>
 		</nav>
 	);
