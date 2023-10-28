@@ -136,8 +136,8 @@ const HomePage = () => {
 				<br></br>
 				<br></br>
 				<br></br>
-				<h1>Hello!</h1>
-				<h2>
+				<h1 className="hp-hello">Hello!</h1>
+				<h2 className="hp-intro">
 					I'm <span className="my-name">Giovanna Luciano</span>
 				</h2>
 				<TypeAnimationComponent />
