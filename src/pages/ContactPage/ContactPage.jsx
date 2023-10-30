@@ -39,7 +39,10 @@ const ContactPage = () => {
 				</ul>
 			</div>
 			<div className="contact-img">
-
+				<img
+					src="../../public/images/contact.svg"
+					className="work-from-home"
+				></img>
 			</div>
 		</main>
 	);
