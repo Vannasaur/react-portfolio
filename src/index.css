@@ -538,4 +538,16 @@ footer {
 	.error-img {
 		width: 100%;
 	}
+
+	/* navbar */
+
+.nav {
+	display:block;
+	/* align-items: end; */
+}
+
+.navbar {
+	margin-left: 70%;
+}
+
 }

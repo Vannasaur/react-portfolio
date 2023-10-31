@@ -102,7 +102,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="/public/images/projects/codequiz.png"
+					src="/images/projects/codequiz.png"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
