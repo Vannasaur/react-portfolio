@@ -4,12 +4,12 @@ const ContactPage = () => {
 			<div className="contact-txt">
 				<h2>Contact Me</h2>
 				<ul>
-					<li>
+					<li className="contact-spacing">
 						<a href="tel:9498137689" target="_blank" className="contact-info">
 							949.813.7689
 						</a>
 					</li>
-					<li>
+					<li className="contact-spacing">
 						<a
 							href="mailto:vannaluciano@gmail.com"
 							target="_blank"
@@ -18,7 +18,7 @@ const ContactPage = () => {
 							vannaluciano@gmail.com
 						</a>
 					</li>
-					<li>
+					<li className="contact-spacing">
 						<a
 							href="https://github.com/Vannasaur"
 							target="_blank"
@@ -27,7 +27,7 @@ const ContactPage = () => {
 							Github
 						</a>
 					</li>
-					<li>
+					<li className="contact-spacing">
 						<a
 							href="https://www.instagram.com/luccii.creates/"
 							target="_blank"

@@ -1,5 +1,6 @@
 // Bringing in the required import from 'react-router-dom'
 import { Link } from 'react-router-dom';
+import glResume from '../../public/assets/gluciano-resume.pdf';
 
 function Header() {
   return (
@@ -26,11 +27,11 @@ function Header() {
 				</Link>
 			</div>
 			<div>
-					<Link key={4} className="" to="/resume">
+					<a href={glResume} download="Giovanna Luciano Resume">
 				<button className="resume-btn navbar">
 						Resume
 				</button>
-					</Link>
+					</a>
 			</div>
 		</nav>
 	);

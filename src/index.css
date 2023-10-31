@@ -61,9 +61,11 @@ button {
 	cursor: pointer;
 	border-color: #e042d6;
 	transition: border-color 0.25s;
+	color: #e042d6;
 }
 button:hover {
 	border-color: #888eff;
+	color: #888eff;
 	background-color: #2a2d69;
 }
 button:focus,
@@ -219,12 +221,12 @@ footer {
 /* contact page */
 
 .contactpage {
-	/* display: flex; */
-	max-width: 100%;
+	display: flex;
+	/* justify-content: space-between; */
 }
 
 .contact-txt {
-	max-width: 50%;
+	width: 50%;
 	text-align: center;
 	margin-top: 100px;
 	font-size: 1.5rem;
@@ -232,11 +234,16 @@ footer {
 	border-radius: 100px;
 	border-width: 4px;
 	border-style: solid;
-	/* margin-right: 150px; */
+	margin-right: 150px;
 	margin-left: 150px;
 	margin-bottom: 70px;
 	box-shadow: 0 0 3rem #e0679f;
-	padding: 30px;
+	padding: 50px;
+}
+
+.contact-spacing {
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .contact-info:hover {
@@ -247,7 +254,8 @@ footer {
 
 .contact-img {
 	display: flex;
-	max-width: 50%;
+	justify-content: center;
+	width: 50%;
 }
 
 .work-from-home {
