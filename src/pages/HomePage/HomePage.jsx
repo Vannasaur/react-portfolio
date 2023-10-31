@@ -149,7 +149,7 @@ const HomePage = () => {
 			</div>
 			<div className="homepage-img">
 				<img
-					src="../../public/images/girlCoding.svg"
+					src="/images/girlCoding.svg"
 					className="girl-coding"
 				></img>
 			</div>

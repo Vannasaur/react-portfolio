@@ -38,7 +38,7 @@ const AboutPage = () => {
 			</div>
 			<div className="about-img">
 				<img
-					src="../../public/images/girlonlaptop.svg"
+					src="/images/girlonlaptop.svg"
 					className="girl-laptop"
 				></img>
 			</div>

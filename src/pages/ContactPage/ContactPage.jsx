@@ -40,7 +40,7 @@ const ContactPage = () => {
 			</div>
 			<div className="contact-img">
 				<img
-					src="../../public/images/contact.svg"
+					src="/images/contact.svg"
 					className="work-from-home"
 				></img>
 			</div>

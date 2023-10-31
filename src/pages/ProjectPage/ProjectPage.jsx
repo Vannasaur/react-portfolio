@@ -3,7 +3,7 @@ const ProjectPage = () => {
 		<div className="projects">
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/JATE.jpeg"
+					src="/images/projects/JATE.jpeg"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
@@ -21,7 +21,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/weather-dashboard.png"
+					src="/images/projects/weather-dashboard.png"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
@@ -42,7 +42,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/blog.png"
+					src="/images/projects/blog.png"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
@@ -60,7 +60,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/help-desk.jpeg"
+					src="/images/projects/help-desk.jpeg"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
@@ -81,7 +81,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/social-network.jpeg"
+					src="/images/projects/social-network.jpeg"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
@@ -102,7 +102,7 @@ const ProjectPage = () => {
 			</figure>
 			<figure className="project">
 				<img
-					src="../../../public/images/projects/codequiz.png"
+					src="/public/images/projects/codequiz.png"
 					className="project-img"
 				/>
 				<figcaption className="textbox">
