@@ -1,76 +1,120 @@
 const ProjectPage = () => {
 	return (
-		<div>
-			<ul className="projects">
-				<li className="project">
+		<div className="projects">
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/JATE.jpeg"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Text Editor</h3>
 					<a
-						href="https://vannasaur.github.io/horiseon-refactor/"
+						href="https://aqueous-earth-61873-b9d107970637.herokuapp.com/"
 						target="_blank"
 					>
-						<img src="./assets/images/Horiseon.jpg" />
+						<button className="project-btn">Application</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Horiseon Code Refactor</h3>
-						<p>HTML, CSS</p>
-					</figcaption>
-				</li>
-				<li className="project">
+					<a href="https://github.com/Vannasaur/text-editor" target="_blank">
+						<button className="project-btn">GitHub</button>
+					</a>
+				</figcaption>
+			</figure>
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/weather-dashboard.png"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Weather Dashboard</h3>
 					<a
-						href="https://marcos-wang.github.io/Project-1-JVM/"
+						href="https://vannasaur.github.io/weather-dashboard/"
 						target="_blank"
 					>
-						<img src="./assets/images/Surf-Planner.jpg" />
+						<button className="project-btn">Application</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Surf Planner</h3>
-						<p>HTML, CSS, JavaScript</p>
-					</figcaption>
-				</li>
-				<li className="project">
-					<a href="https://immense-caverns-15186-3cc45d438581.herokuapp.com/">
-						<img src="./assets/images/Blog.jpeg" />
+					<a
+						href="https://github.com/Vannasaur/weather-dashboard"
+						target="_blank"
+					>
+						<button className="project-btn">GitHub</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Blog</h3>
-						<p>
-							Node.js, Express.js, Handlebars.js,
-							<br />
-							MySQL, Sequelize, Heroku
-						</p>
-					</figcaption>
-				</li>
-				<li className="project">
-					<a href="https://murmuring-chamber-70429-75790581b652.herokuapp.com/">
-						<img src="./assets/images/Help-Desk.jpeg" />
+				</figcaption>
+			</figure>
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/blog.png"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Blog</h3>
+					<a
+						href="https://immense-caverns-15186-3cc45d438581.herokuapp.com/"
+						target="_blank"
+					>
+						<button className="project-btn">Application</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Help Desk</h3>
-						<p>
-							Node.js, Express.js, Handlebars.js,
-							<br />
-							MySQL, Sequelize, Heroku
-						</p>
-					</figcaption>
-				</li>
-				<li className="project">
-					<a href="#">
-						<img src="./assets/images/Placeholder-3.jpg" />
+					<a href="https://github.com/Vannasaur/tech-blog" target="_blank">
+						<button className="project-btn">GitHub</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Upcoming Project</h3>
-						<p>Technologies Used</p>
-					</figcaption>
-				</li>
-				<li className="project">
-					<a href="#">
-						<img src="./assets/images/Placeholder-3.jpg" />
+				</figcaption>
+			</figure>
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/help-desk.jpeg"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Help Desk</h3>
+					<a
+						href="https://murmuring-chamber-70429-75790581b652.herokuapp.com/"
+						target="_blank"
+					>
+						<button className="project-btn">Application</button>
 					</a>
-					<figcaption class="textbox">
-						<h3>Upcoming Project</h3>
-						<p>Technologies Used</p>
-					</figcaption>
-				</li>
-			</ul>
+					<a
+						href="https://github.com/Vannasaur/girls-help-desk"
+						target="_blank"
+					>
+						<button className="project-btn">GitHub</button>
+					</a>
+				</figcaption>
+			</figure>
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/social-network.jpeg"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Social Network</h3>
+					<a
+						href="https://drive.google.com/file/d/19QZvD4w7WFKP2ogPvWiDNoEhp8jEs2i9/view"
+						target="_blank"
+					>
+						<button className="project-btn">Demo</button>
+					</a>
+					<a
+						href="https://github.com/Vannasaur/social-network-api"
+						target="_blank"
+					>
+						<button className="project-btn">GitHub</button>
+					</a>
+				</figcaption>
+			</figure>
+			<figure className="project">
+				<img
+					src="../../../public/images/projects/codequiz.png"
+					className="project-img"
+				/>
+				<figcaption className="textbox">
+					<h3>Code Quiz</h3>
+					<a href="https://vannasaur.github.io/code-quiz/" target="_blank">
+						<button className="project-btn">Application</button>
+					</a>
+					<a href="https://github.com/Vannasaur/code-quiz" target="_blank">
+						<button className="project-btn">GitHub</button>
+					</a>
+				</figcaption>
+			</figure>
 		</div>
 	);
 };

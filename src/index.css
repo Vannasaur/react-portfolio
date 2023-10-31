@@ -217,7 +217,6 @@ footer {
 	font-size: 1.1rem;
 }
 
-
 /* contact page */
 
 .contactpage {
@@ -267,8 +266,8 @@ footer {
 .projects {
 	display: grid;
 	grid-template-areas:
-		'a b c'
-		'd e f';
+		"a b c"
+		"d e f";
 	grid-template-rows: repeat(2, 50%);
 	grid-template-columns: repeat(3, calc(100% / 3));
 	grid-gap: 20px;
@@ -304,6 +303,36 @@ footer {
 	grid-area: f;
 }
 
+.project {
+	border-radius: 100px;
+	border-color: #9267e0;
+	border-width: 4px;
+	border-style: solid;
+	overflow: hidden;
+	margin: 30px;
+	box-shadow: 0 0 2rem #e0679f;
+	max-width: 500px;
+}
+
+.project-img {
+	opacity: 0.8;
+}
+
+.project-img:hover {
+	opacity: 1;
+}
+
+.textbox {
+	padding: 30px;
+	margin-bottom: 10px;
+}
+
+.project-btn {
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
 /* error page */
 
 .errorpage {
@@ -337,6 +366,58 @@ footer {
 
 /* media queries */
 
+@media only screen and (max-width: 1450px) {
+	/* about page */
+	.about {
+		flex-direction: column;
+	}
+
+	.about-img {
+		margin-top: 30px;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-txt {
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	/* project page */
+	.projects {
+		grid-template-areas:
+			"a b"
+			"c d"
+			"e f";
+		grid-template-rows: repeat(3, calc(100% / 3));
+		grid-template-columns: repeat(2, 50%);
+	}
+
+	/* contact page */
+
+	.contactpage {
+		flex-direction: column;
+	}
+
+	.contact-img {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		margin-top: 100px;
+	}
+
+	.contact-txt {
+		/* width: 100%; */
+		padding-left: 50px;
+		padding-right: 50px;
+		margin: auto;
+		font-size: 1.2rem;
+		justify-content: center;
+	}
+}
+
 @media only screen and (max-width: 1200px) {
 	/* homepage */
 	.homepage {
@@ -359,7 +440,20 @@ footer {
 		margin-left: 0px;
 	}
 
-/* error page */
+	/* project page */
+	.projects {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	/* contact page */
+
+	.contact-txt {
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	/* error page */
 	.errorpage {
 		flex-direction: column;
 		align-items: center;
@@ -402,6 +496,33 @@ footer {
 		margin-top: 50px;
 	}
 
+	/* about page */
+
+	.about {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.about-txt {
+		padding: 10px;
+	}
+
+	/* project page */
+
+	.projects {
+		grid-template-areas:
+			"a"
+			"b"
+			"c"
+			"d"
+			"e"
+			"f";
+		grid-template-rows: repeat(6, calc(100% / 6));
+		grid-template-columns: repeat(1, 100%);
+		margin-bottom: 200px;
+		justify-items: center;
+	}
+
 	/* footer */
 
 	.footer-links {
@@ -409,7 +530,7 @@ footer {
 	}
 
 	/* error page */
-		.errorback-btn {
+	.errorback-btn {
 		margin-left: 0px;
 		font-size: small;
 	}
@@ -418,4 +539,3 @@ footer {
 		width: 100%;
 	}
 }
-
