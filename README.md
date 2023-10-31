@@ -58,4 +58,4 @@ Please refer to my profile for additional projects: https://github.com/Vannasaur
 
 If you have any questions please email me at: vannaluciano@gmail.com
 
-![giovanna-luciano netlify app_](https://github.com/Vannasaur/react-portfolio/assets/141793843/89226cf5-b363-4c48-a316-67653ad3df30)
+![giovanna-luciano netlify app_ (1)](https://github.com/Vannasaur/react-portfolio/assets/141793843/48dbbff5-9c68-4c8b-a13c-2f3300318b31)
