@@ -100,9 +100,9 @@ footer {
 	font-weight: 500;
 }
 
-.navbar:hover {
+/* .navbar:hover {
 	font-size: larger;
-}
+} */
 
 .resume-btn {
 	border-radius: 5px;
@@ -479,6 +479,17 @@ footer {
 		display: flex;
 		font-size: medium;
 	}
+		/* navbar */
+
+.nav {
+	display:block;
+	/* align-items: end; */
+}
+
+.navbar {
+	margin-left: 70%;
+}
+
 }
 
 @media only screen and (max-width: 819px) {
@@ -547,16 +558,4 @@ footer {
 	.error-img {
 		width: 100%;
 	}
-
-	/* navbar */
-
-.nav {
-	display:block;
-	/* align-items: end; */
-}
-
-.navbar {
-	margin-left: 70%;
-}
-
 }
