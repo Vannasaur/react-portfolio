@@ -6,6 +6,9 @@ function Header() {
   return (
 		// The nav component will render each of the Link elements in the links prop
 		<nav className="flex nav">
+			<div className="nav-name">
+				Giovanna Luciano
+			</div>
 			<div>
 				<Link key={1} className="navbar" to="/">
 					Home
