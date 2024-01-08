@@ -481,13 +481,37 @@ footer {
 	}
 		/* navbar */
 
-.nav {
+/* .nav {
 	display:block;
-	/* align-items: end; */
+	align-items: flex-end;
+} */
+
+/* .navbar {
+	margin-left: 70%;
+} */
+
+.menuIcon, .exitMenu {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-right: 30px;
+	cursor:pointer;
 }
 
-.navbar {
-	margin-left: 70%;
+.menuIcon {
+	font-size: 2.5em;
+}
+
+.exitMenu {
+	font-size: 1.7em;
+}
+
+.exitMenu:hover {
+	color:#d737ff;
+}
+
+.nav-name {
+	width: 75%;
 }
 
 }
